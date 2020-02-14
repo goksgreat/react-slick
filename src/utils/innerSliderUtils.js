@@ -786,7 +786,7 @@ export const siblingDirection = spec => {
         spec.targetSlide - spec.currentSlide <
         spec.slideCount - spec.targetSlide + spec.currentSlide
       ) {
-        return "right";
+        return "left";
       }
       return "left";
     } else {
@@ -796,7 +796,7 @@ export const siblingDirection = spec => {
       ) {
         return "left";
       }
-      return "right";
+      return "left";
     }
   }
 };
